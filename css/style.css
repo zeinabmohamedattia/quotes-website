@@ -1,0 +1,80 @@
+* {
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.title {
+    font-size: 42px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../books.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.quotes-container {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    border-top: solid #BCA37F;
+    border-left: solid #BCA37F;
+
+}
+
+#quoteContent, #quoteAuther {
+    color: #f3d5ae;
+    font-family: 'Caveat', cursive;
+}
+
+#quoteContent {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+#quoteAuther {
+    font-weight: 400;
+    font-size: 28px;
+}
+
+button {
+    color: #ffffff;
+    background-color: #BCA37F;
+    font-size: 20px;
+    border: solid transparent;
+    border-radius: 25px;
+    font-weight: 400;
+}
+
+button:hover {
+    background-color: transparent;
+    color: #FFFFFF;
+    border-color: #BCA37F;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    background-color: #BCA37F;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.icon:hover .heart {
+    color: red;
+}
+
+.icon:hover .bookmark {
+    color: blue;
+}
+
+.icon:hover .share {
+    color: green;
+}
+
+.quote-mark {
+    color: #BCA37F;
+    font-size: 34px;
+}
